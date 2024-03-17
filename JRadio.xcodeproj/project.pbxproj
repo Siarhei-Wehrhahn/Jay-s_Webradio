@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		818897C42BA5D7CE0080DFDA /* JRadioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818897C32BA5D7CE0080DFDA /* JRadioApp.swift */; };
+		818897C62BA5D7CE0080DFDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818897C52BA5D7CE0080DFDA /* ContentView.swift */; };
+		818897C82BA5D7D00080DFDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818897C72BA5D7D00080DFDA /* Assets.xcassets */; };
+		818897CB2BA5D7D00080DFDA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818897CA2BA5D7D00080DFDA /* Preview Assets.xcassets */; };
+		818897D52BA5D7D00080DFDA /* JRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818897D42BA5D7D00080DFDA /* JRadioTests.swift */; };
+		818897DF2BA5D7D00080DFDA /* JRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818897DE2BA5D7D00080DFDA /* JRadioUITests.swift */; };
+		818897E12BA5D7D00080DFDA /* JRadioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818897E02BA5D7D00080DFDA /* JRadioUITestsLaunchTests.swift */; };
+		818897F22BA5D91E0080DFDA /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818897F12BA5D91E0080DFDA /* VideoPlayerView.swift */; };
+		818897F42BA5DA5F0080DFDA /* SoundPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818897F32BA5DA5F0080DFDA /* SoundPlayerView.swift */; };
+		818897F82BA62BB10080DFDA /* PlaySoundFromVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818897F72BA62BB10080DFDA /* PlaySoundFromVideo.swift */; };
+		818897FA2BA63CAD0080DFDA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818897F92BA63CAD0080DFDA /* HeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		818897D12BA5D7D00080DFDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 818897B82BA5D7CE0080DFDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 818897BF2BA5D7CE0080DFDA;
+			remoteInfo = JRadio;
+		};
+		818897DB2BA5D7D00080DFDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 818897B82BA5D7CE0080DFDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 818897BF2BA5D7CE0080DFDA;
+			remoteInfo = JRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81709F9C2BA6FBA500CA7E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		818897C02BA5D7CE0080DFDA /* JRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		818897C32BA5D7CE0080DFDA /* JRadioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRadioApp.swift; sourceTree = "<group>"; };
+		818897C52BA5D7CE0080DFDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		818897C72BA5D7D00080DFDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		818897CA2BA5D7D00080DFDA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		818897D02BA5D7D00080DFDA /* JRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		818897D42BA5D7D00080DFDA /* JRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRadioTests.swift; sourceTree = "<group>"; };
+		818897DA2BA5D7D00080DFDA /* JRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		818897DE2BA5D7D00080DFDA /* JRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRadioUITests.swift; sourceTree = "<group>"; };
+		818897E02BA5D7D00080DFDA /* JRadioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRadioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		818897F12BA5D91E0080DFDA /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		818897F32BA5DA5F0080DFDA /* SoundPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayerView.swift; sourceTree = "<group>"; };
+		818897F72BA62BB10080DFDA /* PlaySoundFromVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundFromVideo.swift; sourceTree = "<group>"; };
+		818897F92BA63CAD0080DFDA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		818897BD2BA5D7CE0080DFDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818897CD2BA5D7D00080DFDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818897D72BA5D7D00080DFDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81709F9B2BA6F9F500CA7E1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				818897F92BA63CAD0080DFDA /* HeaderView.swift */,
+				818897F12BA5D91E0080DFDA /* VideoPlayerView.swift */,
+				818897F32BA5DA5F0080DFDA /* SoundPlayerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		818897B72BA5D7CE0080DFDA = {
+			isa = PBXGroup;
+			children = (
+				818897C22BA5D7CE0080DFDA /* JRadio */,
+				818897D32BA5D7D00080DFDA /* JRadioTests */,
+				818897DD2BA5D7D00080DFDA /* JRadioUITests */,
+				818897C12BA5D7CE0080DFDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		818897C12BA5D7CE0080DFDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				818897C02BA5D7CE0080DFDA /* JRadio.app */,
+				818897D02BA5D7D00080DFDA /* JRadioTests.xctest */,
+				818897DA2BA5D7D00080DFDA /* JRadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		818897C22BA5D7CE0080DFDA /* JRadio */ = {
+			isa = PBXGroup;
+			children = (
+				81709F9C2BA6FBA500CA7E1F /* Info.plist */,
+				81709F9B2BA6F9F500CA7E1F /* Views */,
+				818897FC2BA6429B0080DFDA /* Components */,
+				818897C32BA5D7CE0080DFDA /* JRadioApp.swift */,
+				818897C52BA5D7CE0080DFDA /* ContentView.swift */,
+				818897C72BA5D7D00080DFDA /* Assets.xcassets */,
+				818897C92BA5D7D00080DFDA /* Preview Content */,
+			);
+			path = JRadio;
+			sourceTree = "<group>";
+		};
+		818897C92BA5D7D00080DFDA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				818897CA2BA5D7D00080DFDA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		818897D32BA5D7D00080DFDA /* JRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				818897D42BA5D7D00080DFDA /* JRadioTests.swift */,
+			);
+			path = JRadioTests;
+			sourceTree = "<group>";
+		};
+		818897DD2BA5D7D00080DFDA /* JRadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				818897DE2BA5D7D00080DFDA /* JRadioUITests.swift */,
+				818897E02BA5D7D00080DFDA /* JRadioUITestsLaunchTests.swift */,
+			);
+			path = JRadioUITests;
+			sourceTree = "<group>";
+		};
+		818897FC2BA6429B0080DFDA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				818897F72BA62BB10080DFDA /* PlaySoundFromVideo.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		818897BF2BA5D7CE0080DFDA /* JRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818897E42BA5D7D00080DFDA /* Build configuration list for PBXNativeTarget "JRadio" */;
+			buildPhases = (
+				818897BC2BA5D7CE0080DFDA /* Sources */,
+				818897BD2BA5D7CE0080DFDA /* Frameworks */,
+				818897BE2BA5D7CE0080DFDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JRadio;
+			productName = JRadio;
+			productReference = 818897C02BA5D7CE0080DFDA /* JRadio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		818897CF2BA5D7D00080DFDA /* JRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818897E72BA5D7D00080DFDA /* Build configuration list for PBXNativeTarget "JRadioTests" */;
+			buildPhases = (
+				818897CC2BA5D7D00080DFDA /* Sources */,
+				818897CD2BA5D7D00080DFDA /* Frameworks */,
+				818897CE2BA5D7D00080DFDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				818897D22BA5D7D00080DFDA /* PBXTargetDependency */,
+			);
+			name = JRadioTests;
+			productName = JRadioTests;
+			productReference = 818897D02BA5D7D00080DFDA /* JRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		818897D92BA5D7D00080DFDA /* JRadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 818897EA2BA5D7D00080DFDA /* Build configuration list for PBXNativeTarget "JRadioUITests" */;
+			buildPhases = (
+				818897D62BA5D7D00080DFDA /* Sources */,
+				818897D72BA5D7D00080DFDA /* Frameworks */,
+				818897D82BA5D7D00080DFDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				818897DC2BA5D7D00080DFDA /* PBXTargetDependency */,
+			);
+			name = JRadioUITests;
+			productName = JRadioUITests;
+			productReference = 818897DA2BA5D7D00080DFDA /* JRadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		818897B82BA5D7CE0080DFDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					818897BF2BA5D7CE0080DFDA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					818897CF2BA5D7D00080DFDA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 818897BF2BA5D7CE0080DFDA;
+					};
+					818897D92BA5D7D00080DFDA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 818897BF2BA5D7CE0080DFDA;
+					};
+				};
+			};
+			buildConfigurationList = 818897BB2BA5D7CE0080DFDA /* Build configuration list for PBXProject "JRadio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 818897B72BA5D7CE0080DFDA;
+			productRefGroup = 818897C12BA5D7CE0080DFDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				818897BF2BA5D7CE0080DFDA /* JRadio */,
+				818897CF2BA5D7D00080DFDA /* JRadioTests */,
+				818897D92BA5D7D00080DFDA /* JRadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		818897BE2BA5D7CE0080DFDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818897CB2BA5D7D00080DFDA /* Preview Assets.xcassets in Resources */,
+				818897C82BA5D7D00080DFDA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818897CE2BA5D7D00080DFDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818897D82BA5D7D00080DFDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		818897BC2BA5D7CE0080DFDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818897C62BA5D7CE0080DFDA /* ContentView.swift in Sources */,
+				818897C42BA5D7CE0080DFDA /* JRadioApp.swift in Sources */,
+				818897F22BA5D91E0080DFDA /* VideoPlayerView.swift in Sources */,
+				818897F42BA5DA5F0080DFDA /* SoundPlayerView.swift in Sources */,
+				818897F82BA62BB10080DFDA /* PlaySoundFromVideo.swift in Sources */,
+				818897FA2BA63CAD0080DFDA /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818897CC2BA5D7D00080DFDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818897D52BA5D7D00080DFDA /* JRadioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		818897D62BA5D7D00080DFDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				818897DF2BA5D7D00080DFDA /* JRadioUITests.swift in Sources */,
+				818897E12BA5D7D00080DFDA /* JRadioUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		818897D22BA5D7D00080DFDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 818897BF2BA5D7CE0080DFDA /* JRadio */;
+			targetProxy = 818897D12BA5D7D00080DFDA /* PBXContainerItemProxy */;
+		};
+		818897DC2BA5D7D00080DFDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 818897BF2BA5D7CE0080DFDA /* JRadio */;
+			targetProxy = 818897DB2BA5D7D00080DFDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		818897E22BA5D7D00080DFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		818897E32BA5D7D00080DFDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		818897E52BA5D7D00080DFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JRadio/Preview Content\"";
+				DEVELOPMENT_TEAM = LFNM38DQ8M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JRadio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Inventis-Group.JRadio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		818897E62BA5D7D00080DFDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JRadio/Preview Content\"";
+				DEVELOPMENT_TEAM = LFNM38DQ8M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JRadio/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Inventis-Group.JRadio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		818897E82BA5D7D00080DFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Inventis-Group.JRadioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRadio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JRadio";
+			};
+			name = Debug;
+		};
+		818897E92BA5D7D00080DFDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Inventis-Group.JRadioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JRadio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JRadio";
+			};
+			name = Release;
+		};
+		818897EB2BA5D7D00080DFDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Inventis-Group.JRadioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JRadio;
+			};
+			name = Debug;
+		};
+		818897EC2BA5D7D00080DFDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Inventis-Group.JRadioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JRadio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		818897BB2BA5D7CE0080DFDA /* Build configuration list for PBXProject "JRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818897E22BA5D7D00080DFDA /* Debug */,
+				818897E32BA5D7D00080DFDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		818897E42BA5D7D00080DFDA /* Build configuration list for PBXNativeTarget "JRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818897E52BA5D7D00080DFDA /* Debug */,
+				818897E62BA5D7D00080DFDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		818897E72BA5D7D00080DFDA /* Build configuration list for PBXNativeTarget "JRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818897E82BA5D7D00080DFDA /* Debug */,
+				818897E92BA5D7D00080DFDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		818897EA2BA5D7D00080DFDA /* Build configuration list for PBXNativeTarget "JRadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				818897EB2BA5D7D00080DFDA /* Debug */,
+				818897EC2BA5D7D00080DFDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 818897B82BA5D7CE0080DFDA /* Project object */;
+}
