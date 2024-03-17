@@ -3,7 +3,7 @@
 //  JRadio
 //
 //  Created by Siarhei Wehrhahn on 16.03.24.
-//
+// Version 1.0.0
 
 import SwiftUI
 import UIKit
