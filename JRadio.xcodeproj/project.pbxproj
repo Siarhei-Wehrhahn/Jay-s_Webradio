@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		81709FA02BA70D2F00CA7E1F /* LICENSE.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 81709F9F2BA70D2F00CA7E1F /* LICENSE.rtf */; };
 		818897C42BA5D7CE0080DFDA /* JRadioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818897C32BA5D7CE0080DFDA /* JRadioApp.swift */; };
 		818897C62BA5D7CE0080DFDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818897C52BA5D7CE0080DFDA /* ContentView.swift */; };
 		818897C82BA5D7D00080DFDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 818897C72BA5D7D00080DFDA /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		81709F9C2BA6FBA500CA7E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		81709F9F2BA70D2F00CA7E1F /* LICENSE.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = LICENSE.rtf; sourceTree = "<group>"; };
 		818897C02BA5D7CE0080DFDA /* JRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		818897C32BA5D7CE0080DFDA /* JRadioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JRadioApp.swift; sourceTree = "<group>"; };
 		818897C52BA5D7CE0080DFDA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				818897C52BA5D7CE0080DFDA /* ContentView.swift */,
 				818897C72BA5D7D00080DFDA /* Assets.xcassets */,
 				818897C92BA5D7D00080DFDA /* Preview Content */,
+				81709F9F2BA70D2F00CA7E1F /* LICENSE.rtf */,
 			);
 			path = JRadio;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81709FA02BA70D2F00CA7E1F /* LICENSE.rtf in Resources */,
 				818897CB2BA5D7D00080DFDA /* Preview Assets.xcassets in Resources */,
 				818897C82BA5D7D00080DFDA /* Assets.xcassets in Resources */,
 			);
