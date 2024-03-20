@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8152B68E2BAAF32200B851D4 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152B68D2BAAF32200B851D4 /* SplashView.swift */; };
+		8152B6902BAAF58500B851D4 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152B68F2BAAF58500B851D4 /* ViewRouter.swift */; };
+		8152B6922BAAF74500B851D4 /* InfoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8152B6912BAAF74500B851D4 /* InfoTextView.swift */; };
+		8152B6942BAB01AA00B851D4 /* DatenschutzRichtlinie.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8152B6932BAB01AA00B851D4 /* DatenschutzRichtlinie.rtf */; };
 		81709FA02BA70D2F00CA7E1F /* LICENSE.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 81709F9F2BA70D2F00CA7E1F /* LICENSE.rtf */; };
 		818897C42BA5D7CE0080DFDA /* JRadioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818897C32BA5D7CE0080DFDA /* JRadioApp.swift */; };
 		818897C62BA5D7CE0080DFDA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818897C52BA5D7CE0080DFDA /* ContentView.swift */; };
@@ -39,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8152B68D2BAAF32200B851D4 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		8152B68F2BAAF58500B851D4 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		8152B6912BAAF74500B851D4 /* InfoTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTextView.swift; sourceTree = "<group>"; };
+		8152B6932BAB01AA00B851D4 /* DatenschutzRichtlinie.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = DatenschutzRichtlinie.rtf; sourceTree = "<group>"; };
 		81709F9C2BA6FBA500CA7E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		81709F9F2BA70D2F00CA7E1F /* LICENSE.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = LICENSE.rtf; sourceTree = "<group>"; };
 		818897C02BA5D7CE0080DFDA /* JRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,10 +127,14 @@
 				81709F9B2BA6F9F500CA7E1F /* Views */,
 				818897FC2BA6429B0080DFDA /* Components */,
 				818897C32BA5D7CE0080DFDA /* JRadioApp.swift */,
+				8152B68D2BAAF32200B851D4 /* SplashView.swift */,
 				818897C52BA5D7CE0080DFDA /* ContentView.swift */,
 				818897C72BA5D7D00080DFDA /* Assets.xcassets */,
 				818897C92BA5D7D00080DFDA /* Preview Content */,
 				81709F9F2BA70D2F00CA7E1F /* LICENSE.rtf */,
+				8152B68F2BAAF58500B851D4 /* ViewRouter.swift */,
+				8152B6912BAAF74500B851D4 /* InfoTextView.swift */,
+				8152B6932BAB01AA00B851D4 /* DatenschutzRichtlinie.rtf */,
 			);
 			path = JRadio;
 			sourceTree = "<group>";
@@ -267,6 +279,7 @@
 				81709FA02BA70D2F00CA7E1F /* LICENSE.rtf in Resources */,
 				818897CB2BA5D7D00080DFDA /* Preview Assets.xcassets in Resources */,
 				818897C82BA5D7D00080DFDA /* Assets.xcassets in Resources */,
+				8152B6942BAB01AA00B851D4 /* DatenschutzRichtlinie.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,8 +308,11 @@
 				818897C42BA5D7CE0080DFDA /* JRadioApp.swift in Sources */,
 				818897F22BA5D91E0080DFDA /* VideoPlayerView.swift in Sources */,
 				818897F42BA5DA5F0080DFDA /* SoundPlayerView.swift in Sources */,
+				8152B6922BAAF74500B851D4 /* InfoTextView.swift in Sources */,
 				818897F82BA62BB10080DFDA /* PlaySoundFromVideo.swift in Sources */,
 				818897FA2BA63CAD0080DFDA /* HeaderView.swift in Sources */,
+				8152B68E2BAAF32200B851D4 /* SplashView.swift in Sources */,
+				8152B6902BAAF58500B851D4 /* ViewRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,7 +485,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -500,7 +516,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
