@@ -29,7 +29,7 @@ struct JRadioApp: App {
                             }
                         }
                 } else {
-                    InfoTextView()
+                    ContentView()
                         .preferredColorScheme(.light)
                 }
             }
