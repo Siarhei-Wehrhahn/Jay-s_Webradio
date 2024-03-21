@@ -4,10 +4,33 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>JRadio 1.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>JRadio.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>818897BF2BA5D7CE0080DFDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>818897CF2BA5D7D00080DFDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>818897D92BA5D7D00080DFDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
