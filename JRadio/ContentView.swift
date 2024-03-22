@@ -15,6 +15,9 @@ struct ContentView: View {
                 .scaledToFill()
                 .ignoresSafeArea(.all)
             
+            LinearGradient(gradient: Gradient(colors: [Color.black.opacity(0.8), Color.black.opacity(0.5), Color.black.opacity(0.0)]), startPoint: .top, endPoint: .bottom)
+                .edgesIgnoringSafeArea(.all)
+            
             ScrollView {
                 VStack {
                     HeaderView()
