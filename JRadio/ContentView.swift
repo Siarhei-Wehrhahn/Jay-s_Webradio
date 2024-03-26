@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import MessageUI
 
 struct ContentView: View {
+    let url = "info@jayswebradio.com"
+    
     var body: some View {
         ZStack {
             Image(.bg)
@@ -15,7 +18,7 @@ struct ContentView: View {
                 .scaledToFill()
                 .ignoresSafeArea(.all)
             
-            LinearGradient(gradient: Gradient(colors: [Color.black.opacity(0.8), Color.black.opacity(0.5), Color.black.opacity(0.0)]), startPoint: .top, endPoint: .bottom)
+            LinearGradient(gradient: Gradient(colors: [Color.black.opacity(1.0), Color.black.opacity(0.7), Color.black.opacity(0.0)]), startPoint: .top, endPoint: .bottom)
                 .edgesIgnoringSafeArea(.all)
             
             ScrollView {
@@ -54,6 +57,34 @@ struct ContentView: View {
                     }
                     
                     VideoPlayerView()
+                    
+                    HStack {
+                        ZStack {
+                            Text("Für Fragen aller Art\nkönnt ihr mir gerne eine\nE-Mail schreiben.")
+                                .foregroundStyle(.black)
+                                .shadow(radius: 2, x: 2.2, y: 2.2)
+                                .padding(.top, 3)
+                                .padding(.leading, 3)
+                            
+                            Text("Für Fragen aller Art\nkönnt ihr mir gerne eine\nE-Mail schreiben.")
+                                .foregroundStyle(.white)
+                                .shadow(radius: 2, x: 2.2, y: 2.2)
+                        }
+                        .offset(CGSize(width: -65.0, height: 0.0))
+                        
+                        Button {
+                            if let emailURL = URL(string: url), UIApplication.shared.canOpenURL(emailURL)
+                            {
+                                UIApplication.shared.open(emailURL, options: [:], completionHandler: nil)
+                            }
+                        } label: {
+                            Image(systemName: "envelope.fill")
+                                .foregroundStyle(.white)
+                                .font(Font.system(size: 24))
+                                .offset(CGSize(width: 25, height: 0))
+                        }
+                    }
+                    .padding()
                 }
                 .padding()
             }

@@ -13,7 +13,7 @@ struct VideoPlayerView: View {
     var body: some View {
         VStack {
             VideoPlayer(player: AVPlayer(url: URL(string: "http://swf.livestreamingcdn.com/iframe/novideo.mp4")!))
-                .frame(height: 300)
+                .frame(width: 365, height: 300)
         }
         .padding()
     }
